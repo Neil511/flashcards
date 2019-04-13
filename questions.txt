@@ -1,0 +1,20 @@
+What is Cryptography?, securing communiations in the presence of malicious adversaries
+What are the goals of Cryptography?, confidentiality data integrity data origin authentication non-repudiation
+What is confidentiality?, keeping data secret from all but those authorized to see it
+What is data integrity?, ensuring data has not been altered by unauthorized means
+What is data origin authentication?, validating the source of data
+What is non-repudiation?, preventing an entity from denying previous comments or actions
+What does SSL stand for?, secure sockets layer
+What does SSL do?, validate the authenticity of a website
+What is the definition of a secure SKES?, it is semantically secure against chosen-plaintext attack by a computationally bound adversary
+What are the goals of an adversary?, recover the secret key recover the plaintext learn some partial information about the plaintext
+Why is OTP considered useless?, the key must be as long as the message and it cannot be reused
+What does a Pseudorandom Bit Generator do?, it is a deterministic algorithm that takes a seed and generates a longer sequence called a keystream
+What does the security level of of L mean?, that the fastest attack takes 2^L operations
+What is diffusion in the context of block ciphers?, each ciphertext bit depends on all the plaintext bits
+What is confusion in the context of block ciphers?, relationship between the ciphertext and the key is complicated
+What properties do MAC schemes provide?, data integrity and data origin authentication
+What does it mean for a MAC to be secure?, given a message and tag pair it is computationally infeasible to compute a message-tag pair
+What is the drawback with symmetric key cryptography?, both parties must share a common key beforehand and keep track of everyone's keys
+Why can non-repudiation never be accomplished with SKC?, both parties share a common key and the message could be from either party
+What is input size?, it is the number of bits required to store the input using a reasonable encoding
