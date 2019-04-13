@@ -5,5 +5,7 @@ For example:
 "What is the mitochondria?, the powerhouse of the cell"
 
 ## Usage
+### Questions
 The "q" or question command asks a random question that hasn't been asked before.
-The "l" <keyword> or lookup command finds all questions/answers with the specific keyword in it.
+### Lookup or Learn
+The "l" <keyword> or lookup command finds all questions/answers with the specific keyword in it. Running the command "l" without a keyword will present a random question/answer pair to study.
